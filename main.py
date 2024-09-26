@@ -74,7 +74,7 @@ gemini = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash",
     verbose=True,
     temperature=0.1,
-    google_api_key="AIzaSyBpVRT86uMPCk7tKX_q-x3Ula8U8ucaiMA",
+    google_api_key="YOUR_API_KEY",
 )
 
 
@@ -427,7 +427,7 @@ elif selected == "Analyze":
             st.success("Text extracted successfully.")
 
             # Summarize the text using Gemini API based on user type
-            api_key = "AIzaSyDwOvC6nJpM9XEkc_PbqhbWKq5Tzdx2xFI"
+            api_key = "YOUR_API_KEY"
             api_response = summarize_text_with_gemini(api_key, pdf_text, user_type)
 
             if api_response:
