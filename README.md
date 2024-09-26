@@ -1,5 +1,3 @@
-#Research Paper Recommender and Analyzer
-
 # Research Paper Recommender and Analyzer
 
 ## Description
